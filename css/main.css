@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(201, 100, 130);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.container {
+  background-color: darkgray;
+  width: 55vw;
+  height: 40vh;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(0, 255, 123);
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn {
+  width: 30vh;
+  background: rgb(103, 218, 220);
+  border: none;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input {
+  outline: none;
+  border: none;
+  padding: 3px;
+  border-radius: 2px;
+  background: none;
+  border-bottom: 1px solid black;
+  color: #fff;
+  font-size: 25px;
+}
+
+select {
+  outline: none;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.result {
+  color: white;
+  text-align: center;
+}
+
+.rate {
+  margin-bottom: 15px;
+  font-size: 25px;
+}/*# sourceMappingURL=main.css.map */
